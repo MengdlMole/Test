@@ -1,1 +1,9 @@
 Hello Git!
+git init
+git log
+git-log
+git status
+git add
+git commit
+git reflog
+git reset --hard commitID 
