@@ -9,3 +9,4 @@ git reflog
 git reset --hard commitID 
 git branch
 git branch branchName
+git checkout branchName
