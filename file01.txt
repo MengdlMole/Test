@@ -4,6 +4,6 @@ git log
 git-log
 git status
 git add
-git commit
+git commit -m "说明"
 git reflog
 git reset --hard commitID 
