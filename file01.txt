@@ -7,3 +7,5 @@ git add
 git commit -m "说明"
 git reflog
 git reset --hard commitID 
+git branch
+git branch branchName
