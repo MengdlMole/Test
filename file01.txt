@@ -1,13 +1,30 @@
 Hello Git!
+# 初始化：
 git init
+# 查看日志：
 git log
 git-log
+# 查看状态：
 git status
+# 添加到缓存区：
 git add
+# 提交：
 git commit -m "说明"
+# 历史日志：
 git reflog
+# 回退：
 git reset --hard commitID 
+# 查看分支：
 git branch
+# 创建分支：
 git branch branchName
+# 切换分支：
 git checkout branchName
+# 创建并切换分支：
 git checkout -b branchName
+# 合并分支：
+git merge branchName
+# 检查并删除分支：
+git branch -d branchName
+# 强制删除分支：
+git branch -D branchName
