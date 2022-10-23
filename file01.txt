@@ -18,6 +18,7 @@ git reset --hard commitID
 git branch
 # 创建分支：
 git branch branchName
+# 常用分支：feature -> develop -> master，还有 hotfix, test, pre
 # 切换分支：
 git checkout branchName
 # 创建并切换分支：
