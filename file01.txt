@@ -26,5 +26,5 @@ git checkout -b branchName
 git merge branchName
 # 检查并删除分支：
 git branch -d branchName
-# 强制删除分支：
+# 强制删除分支（不进行检查）：
 git branch -D branchName
