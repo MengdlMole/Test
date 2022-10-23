@@ -24,6 +24,7 @@ git checkout branchName
 git checkout -b branchName
 # 合并分支：
 git merge branchName
+# 如果有冲突会将冲突位置标注，手动解决后可add和commit
 # 检查并删除分支：
 git branch -d branchName
 # 强制删除分支（不进行检查）：
