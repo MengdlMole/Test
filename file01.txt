@@ -31,5 +31,9 @@ git branch -d branchName
 # 强制删除分支（不进行检查）：
 git branch -D branchName
 # 未完全 merge 时可用 -D 强制删除
-# 重命名分支名称
+# 重命名分支名称：
 git branch -M main
+# windows 生成密钥对：
+ssh-keygen -t rsa
+# 测试连接 github：
+ssh -T git@github.com
