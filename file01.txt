@@ -39,11 +39,23 @@ ssh-keygen -t rsa
 ssh -T git@github.com
 # 添加远程仓库：
 git remote add origin http://...
+# 查看远程仓库：
+git remote
 # 将本地 push 到远程仓库：
 git push origin main
 git push origin main:main
 git push [-f] [--set-upstream] [远端名称 [本地分支名][:远端分支名]]
+git push
 # -f : 强制覆盖
 # --set-upstream:push 时建立对应关系
 # 查看对应关系：
 git branch -vv
+# 从远程仓库克隆：
+git clone <仓库路径> [本地目录]
+# 从远程仓库抓取：
+git pull
+# fetch+merge
+# 从远程仓库拉取：
+git fetch
+git merge origin/main
+# 远程分支也是分支
