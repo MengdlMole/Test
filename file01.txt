@@ -44,3 +44,6 @@ git push origin main
 git push origin main:main
 git push [-f] [--set-upstream] [远端名称 [本地分支名][:远端分支名]]
 # -f : 强制覆盖
+# --set-upstream:push 时建立对应关系
+# 查看对应关系：
+git branch -vv
